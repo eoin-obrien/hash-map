@@ -17,7 +17,8 @@
     "prepare": "dts build",
     "size": "size-limit",
     "start": "dts watch",
-    "test": "dts test"
+    "test": "dts test",
+    "commit": "commit"
   },
   "husky": {
     "hooks": {
@@ -47,6 +48,9 @@
     }
   ],
   "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/prompt-cli": "^16.2.1",
     "@size-limit/preset-small-lib": "^7.0.8",
     "@tsconfig/recommended": "^1.0.1",
     "dts-cli": "^1.4.0",
