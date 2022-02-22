@@ -1,5 +1,8 @@
 import equal from 'fast-deep-equal';
-import hasher, { Hasher } from 'node-object-hash';
+import objectSorter, {
+  SorterOptions,
+  StringifyFn,
+} from 'node-object-hash/dist/objectSorter';
 
 export type HashKey = string | number | symbol;
 export type Entry<K, V> = [K, V];
@@ -7,7 +10,8 @@ export type Bucket<K, V> = Entry<K, V>[];
 
 /**
  * HashMap implementation capable of supporting object and array keys.
- * The `objectSorter` from https://www.npmjs.com/package/node-object-hash is used for hashing.
+ * `node-object-hash` is used for hashing.
+ * `fast-deep-equal` is used for key comparison.
  *
  * @export
  * @class HashMap
@@ -16,12 +20,12 @@ export type Bucket<K, V> = Entry<K, V>[];
  * @template V value type
  */
 export class HashMap<K, V> extends Map<K, V> {
-  protected readonly hasher: Hasher;
+  protected readonly stringify: StringifyFn;
   protected readonly map: Map<HashKey, Bucket<K, V>>;
 
-  constructor(entries?: Entry<K, V>[] | null) {
+  constructor(entries?: Entry<K, V>[] | null, options?: SorterOptions) {
     super();
-    this.hasher = hasher();
+    this.stringify = objectSorter(options);
     this.map = new Map<HashKey, Bucket<K, V>>();
     for (const [key, value] of entries ?? []) {
       this.set(key, value);
@@ -30,7 +34,7 @@ export class HashMap<K, V> extends Map<K, V> {
 
   /** Hashes a key to a value type. */
   protected hash(key: K): HashKey {
-    return this.hasher.hash(key);
+    return this.stringify(key);
   }
 
   /** Determines if keys are equivalent. */
