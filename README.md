@@ -1,11 +1,11 @@
-# HashMap
+# deep-hash-map
 
 A drop-in replacement for the ES6 Map class that can use objects and arrays as keys with deep equality checks.
 
 ## Installation
 
 ```bash
-npm install hash-map
+npm install deep-hash-map
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install hash-map
 Keys can be any combination of objects, arrays and primitives.
 
 ```javascript
-import { HashMap } from 'hash-map';
+import { HashMap } from 'deep-hash-map';
 
 const map = new HashMap();
 map.set({ foo: 'bar' }, 42);
@@ -34,7 +34,7 @@ console.log([...map.entries()]); // [ [ { foo: 'bar' }, 42 ] ]
 `HashMap` supports TypeScript generics for key and value types.
 
 ```typescript
-import { HashMap } from 'hash-map';
+import { HashMap } from 'deep-hash-map';
 
 const map = new HashMap<string, number>();
 map.set('foo', 42); // ok
