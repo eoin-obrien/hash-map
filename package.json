@@ -1,6 +1,6 @@
 {
   "name": "hash-map",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "license": "MIT",
   "author": "Eoin O'Brien",
   "main": "dist/index.js",
@@ -10,6 +10,10 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eoin-obrien/hash-map.git"
+  },
   "scripts": {
     "analyze": "size-limit --why",
     "build": "dts build",
@@ -18,7 +22,8 @@
     "size": "size-limit",
     "start": "dts watch",
     "test": "dts test",
-    "commit": "commit"
+    "commit": "commit",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
@@ -63,7 +68,8 @@
     "husky": "^7.0.4",
     "size-limit": "^7.0.8",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "semantic-release": "^19.0.2"
   },
   "config": {
     "commitizen": {
