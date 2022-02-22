@@ -47,6 +47,11 @@ describe('HashMap', () => {
       const map = new HashMap(testEntries);
       expect(map.delete(-1)).toBe(false);
     });
+    it('returns false if the key has a bucket but is not in the map', () => {
+      const map = new HashMap(testComplexEntries);
+      expect(map.delete({ idx: 0, flag: true })).toBe(true);
+      expect(map.delete({ idx: 0, flag: true })).toBe(false);
+    });
   });
 
   describe('forEach', () => {
