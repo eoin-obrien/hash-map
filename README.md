@@ -1,5 +1,12 @@
 # deep-hash-map
 
+![npm](https://img.shields.io/npm/v/deep-hash-map)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/deep-hash-map)
+![npm](https://img.shields.io/npm/dm/deep-hash-map)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/eoin-obrien/hash-map/CI)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/eoin-obrien/hash-map)
+![Code Climate coverage](https://img.shields.io/codeclimate/coverage/eoin-obrien/hash-map)
+
 A drop-in replacement for the ES6 Map class that can use objects and arrays as keys with deep equality checks.
 
 ## Installation
