@@ -2,7 +2,21 @@
   "name": "deep-hash-map",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "Eoin O'Brien",
+  "author": {
+    "name": "Eoin O'Brien",
+    "email": "eoin@tracworx.ai",
+    "url": "https://tracworx.ai/"
+  },
+  "description": "A drop-in replacement for the ES6 Map class that can use objects and arrays as keys with deep equality checks",
+  "keywords": [
+    "map",
+    "hash",
+    "hashtable",
+    "hashmap",
+    "deep-equal",
+    "collection",
+    "es6"
+  ],
   "main": "dist/index.js",
   "module": "dist/deep-hash-map.esm.js",
   "typings": "dist/index.d.ts",
