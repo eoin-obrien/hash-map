@@ -85,7 +85,7 @@
     "semantic-release": "19.0.2",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
-    "typescript": "4.6.4"
+    "typescript": "4.7.2"
   },
   "config": {
     "commitizen": {
