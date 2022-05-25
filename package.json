@@ -72,7 +72,7 @@
     "node-object-hash": "2.3.10"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.0",
+    "@commitlint/cli": "17.0.1",
     "@commitlint/config-conventional": "17.0.0",
     "@commitlint/prompt-cli": "17.0.0",
     "@semantic-release/git": "10.0.1",
