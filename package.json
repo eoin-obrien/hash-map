@@ -80,7 +80,7 @@
     "@size-limit/preset-small-lib": "7.0.8",
     "@tsconfig/recommended": "1.0.1",
     "cz-conventional-changelog": "3.3.0",
-    "dts-cli": "1.5.1",
+    "dts-cli": "1.5.2",
     "husky": "8.0.1",
     "semantic-release": "19.0.3",
     "size-limit": "7.0.8",
