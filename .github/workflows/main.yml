@@ -29,7 +29,7 @@ jobs:
         run: yarn test --ci --coverage --maxWorkers=2
 
       - name: Publish code coverage
-        uses: paambaati/codeclimate-action@v3.0.0
+        uses: paambaati/codeclimate-action@v3.1.0
         env:
           CC_TEST_REPORTER_ID: 'f7e446f705485691c43277bed1fae6e53cf4be2930ed609fbcd9bfb54c2e783f'
 
