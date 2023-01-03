@@ -81,7 +81,7 @@
     "@tsconfig/recommended": "1.0.1",
     "cz-conventional-changelog": "3.3.0",
     "dts-cli": "1.6.3",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "semantic-release": "19.0.5",
     "size-limit": "7.0.8",
     "tslib": "2.4.1",
