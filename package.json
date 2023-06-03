@@ -84,7 +84,7 @@
     "husky": "8.0.3",
     "semantic-release": "21.0.3",
     "size-limit": "7.0.8",
-    "tslib": "2.5.2",
+    "tslib": "2.5.3",
     "typescript": "5.0.4"
   },
   "config": {
