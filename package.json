@@ -83,7 +83,7 @@
     "dts-cli": "1.6.3",
     "husky": "8.0.3",
     "semantic-release": "21.0.5",
-    "size-limit": "7.0.8",
+    "size-limit": "8.2.6",
     "tslib": "2.5.3",
     "typescript": "5.0.4"
   },
