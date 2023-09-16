@@ -78,7 +78,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "11.0.0",
     "@size-limit/preset-small-lib": "9.0.0",
-    "@tsconfig/recommended": "1.0.2",
+    "@tsconfig/recommended": "1.0.3",
     "cz-conventional-changelog": "3.3.0",
     "dts-cli": "1.6.3",
     "husky": "8.0.3",
