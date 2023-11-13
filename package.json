@@ -77,7 +77,7 @@
     "@commitlint/prompt-cli": "18.4.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "11.0.1",
-    "@size-limit/preset-small-lib": "10.0.3",
+    "@size-limit/preset-small-lib": "11.0.0",
     "@tsconfig/recommended": "1.0.3",
     "cz-conventional-changelog": "3.3.0",
     "dts-cli": "1.6.3",
