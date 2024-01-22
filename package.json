@@ -72,9 +72,9 @@
     "node-object-hash": "2.3.10"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.4",
-    "@commitlint/config-conventional": "18.4.4",
-    "@commitlint/prompt-cli": "18.4.4",
+    "@commitlint/cli": "18.5.0",
+    "@commitlint/config-conventional": "18.5.0",
+    "@commitlint/prompt-cli": "18.5.0",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "11.0.2",
     "@size-limit/preset-small-lib": "11.0.2",
