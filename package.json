@@ -82,7 +82,7 @@
     "cz-conventional-changelog": "3.3.0",
     "dts-cli": "1.6.3",
     "husky": "9.1.6",
-    "semantic-release": "24.1.1",
+    "semantic-release": "24.1.2",
     "size-limit": "11.1.5",
     "tslib": "2.7.0",
     "typescript": "5.0.4"
